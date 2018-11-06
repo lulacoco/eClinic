@@ -4,7 +4,7 @@ TBD - Description
 
 ## Getting Started
 
-TBD - These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+We're currently in a development phase. All the info about building, installing and testing our software will be updated when we're done.
 
 ### Prerequisites
 
