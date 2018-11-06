@@ -38,11 +38,9 @@ The project is in development phase.
 * **Agata Błachowiak** - [lulacoco](https://github.com/lulacoco)
 * **Szymon Bandowski** - [eternalamenity](https://github.com/eternalamenity)
 
-See also the list of [contributors]https://github.com/eternalamenity/eClinic/graphs/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
