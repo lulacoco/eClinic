@@ -25,6 +25,8 @@ After this you should be able to see a running docker container when typing ``` 
 
 ### How to save changes before stopping and removing container
 
+TBD
+
 ## Run on Windows
 
 TBD
