@@ -1,5 +1,7 @@
 # eClinic
 
+[![Travis][travis-badge]][travis-build]
+
 TBD - Description
 
 ## Getting Started
