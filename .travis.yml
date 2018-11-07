@@ -2,9 +2,11 @@ language: csharp
 mono: none
 dotnet: 2.0.0
 
+script:
+ - cd ASP\ .NET\ Core\ Client
+
 install:
 - dotnet restore
 
 script:
- - cd ASP\ .NET\ Core\ Client
  - dotnet build
