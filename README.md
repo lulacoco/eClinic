@@ -1,6 +1,6 @@
 # eClinic
 
-[![Travis][travis-badge]][travis-build]
+[![Build Status](https://travis-ci.com/lulacoco/eClinic.svg?branch=develop)](https://travis-ci.com/lulacoco/eClinic)
 
 TBD - Description
 
