@@ -7,4 +7,5 @@ dotnet: 2.1
 mono: none
 
 script:
+- cd ASP\ .NET\ Core\ Client/
 - dotnet build eClinic
