@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\etern\\source\\repos\\eClinic\\eClinic\\eClinic.csproj",
+      "projectUniqueName": "C:\\Users\\etern\\Documents\\git\\eClinic\\ASP .NET Core Client\\eClinic\\eClinic.csproj",
       "projectName": "eClinic",
-      "projectPath": "C:\\Users\\etern\\source\\repos\\eClinic\\eClinic\\eClinic.csproj",
+      "projectPath": "C:\\Users\\etern\\Documents\\git\\eClinic\\ASP .NET Core Client\\eClinic\\eClinic.csproj",
       "packagesPath": "C:\\Users\\etern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\etern\\source\\repos\\eClinic\\eClinic\\obj\\",
+      "outputPath": "C:\\Users\\etern\\Documents\\git\\eClinic\\ASP .NET Core Client\\eClinic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

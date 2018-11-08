@@ -2,11 +2,9 @@ script:
  - cd ASP\ .NET\ Core\ Client
 
 language: csharp
+solution: eClinic.sln
+dotnet: 2.1
 mono: none
-dotnet: 2.0.0
-
-install:
-- dotnet restore
 
 script:
- - dotnet build
+- dotnet build eClinic
