@@ -13,13 +13,13 @@ Run following command.
 If you want a database with empty tables:
 
 ```
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YOUR_PASSWORD_HERE" -p 1433:1433 -d sbandowski/sqlserver:db-with-tables
+docker run -p 1433:1433 -d sbandowski/sqlserver:db-with-tables
 ```
 
 If you want a database and tables with sample data:
 
 ```
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YOUR_PASSWORD_HERE" -p 1433:1433 -d sbandowski/sqlserver:db-with-tables-and-values
+docker run -p 1433:1433 -d sbandowski/sqlserver:db-with-tables-and-values
 ```
 
 After this you should be able to see a running docker container when typing ``` docker ps ``` command in bash/cmd/powershell.
@@ -29,7 +29,9 @@ After this you should be able to see a running docker container when typing ``` 
 1. Check IP of Ethernet adapter vEthernet (DockerNAT). You can do it using ipconfig (win) or ifconfig (linux) commands.
 2. When connecting to database in SSMS type in IP of your DockerNAT as Server Name.
 3. Change Authentication to SQL Server Authentication.
-4. Login: sa , Password: PASSWORD_YOU_USED_WHEN_TYPING_DOCKER_RUN
+4. Login: sa , Password: Qwerty123!
+
+NOTE: Password is set as an environment variable.
 
 ### How to save changes before stopping and removing container
 
