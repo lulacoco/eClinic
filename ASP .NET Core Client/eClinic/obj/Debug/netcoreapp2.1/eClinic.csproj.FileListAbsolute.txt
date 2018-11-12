@@ -30,3 +30,35 @@ C:\Users\etern\source\repos\eClinic\eClinic\obj\Debug\netcoreapp2.1\eClinic.View
 C:\Users\etern\source\repos\eClinic\eClinic\obj\Debug\netcoreapp2.1\eClinic.dll
 C:\Users\etern\source\repos\eClinic\eClinic\obj\Debug\netcoreapp2.1\eClinic.pdb
 C:\Users\etern\source\repos\eClinic\eClinic\obj\Debug\netcoreapp2.1\eClinic.csproj.CopyComplete
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.csprojAssemblyReference.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.csproj.CoreCompileInputs.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.RazorAssemblyInfo.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.RazorAssemblyInfo.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.AssemblyInfoInputs.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.AssemblyInfo.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.dll
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.pdb
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.deps.json
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.runtimeconfig.json
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.runtimeconfig.dev.json
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.dll
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.pdb
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.Views.dll
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\bin\Debug\netcoreapp2.1\eClinic.Views.pdb
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.TagHelpers.input.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.TagHelpers.output.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.RazorCoreGenerate.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.RazorTargetAssemblyInfo.cache
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.RazorTargetAssemblyInfo.cs
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.Views.pdb
+C:\Users\Szymon\Desktop\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.csproj.CopyComplete

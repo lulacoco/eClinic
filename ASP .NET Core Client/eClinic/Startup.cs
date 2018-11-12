@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using eClinic.Models;
 
 namespace eClinic
 {
@@ -33,6 +35,9 @@ namespace eClinic
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            var connection = @"Server=10.0.75.1;Database=Clinic;User Id=sa;Password=Qwerty123!;ConnectRetryCount=0";
+            services.AddDbContext<DoctorDbEntities>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
