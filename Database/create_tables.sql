@@ -6,8 +6,8 @@ GO
 
 CREATE TABLE Diseases (
 	DiseaseID int IDENTITY(1,1) PRIMARY KEY,
-	DiseaseType varchar(100),
 	DiseaseName varchar(100),
+	DiseaseType varchar(100),
 	Orders varchar(200)
 );
 
@@ -46,5 +46,6 @@ CREATE TABLE Appointment (
 	DoctorPesel bigint FOREIGN KEY REFERENCES Doctor(DoctorPesel),
 	PatientPesel bigint FOREIGN KEY REFERENCES Patient(PatientPesel),
 	DiseaseID int FOREIGN KEY REFERENCES Diseases(DiseaseID),
-	AppointmentDate DATETIME NOT NULL
+	AppointmentDate DATETIME NOT NULL,
+	AppointmentCompleted BIT DEFAULT 0
 );
