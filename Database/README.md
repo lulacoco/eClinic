@@ -25,7 +25,7 @@ docker run -p 1433:1433 -d sbandowski/sqlserver:db-with-tables-and-values
 If you want a database and tables with sample data, triggers and procedures:
 
 ```
-docker run -p 1433:1433 -d db-with-tables-values-triggers-procedures
+docker run -p 1433:1433 -d sbandowski/sqlserver:db-with-tables-values-triggers-procedures
 ```
 
 After this you should be able to see a running docker container when typing ``` docker ps ``` command in bash/cmd/powershell.
