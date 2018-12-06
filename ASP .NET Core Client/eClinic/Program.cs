@@ -40,7 +40,7 @@ namespace eClinic
         }
         public static void Main(string[] args)
         {
-            AsyncQueryAndSave();
+            //AsyncQueryAndSave();
             CreateWebHostBuilder(args).Build().Run();
         }
 
