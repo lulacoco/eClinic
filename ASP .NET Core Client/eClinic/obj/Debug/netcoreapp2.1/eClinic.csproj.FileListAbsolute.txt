@@ -95,3 +95,5 @@ C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netco
 C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.pdb
 C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\eClinic.csproj.CopyComplete
 C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\HomeView.g.cshtml.cs
+C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.g.cshtml.cs
+C:\Users\Szymon\Desktop\git\eClinic\ASP .NET Core Client\eClinic\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
