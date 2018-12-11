@@ -1,23 +1,25 @@
-﻿
+﻿@model DoctorLogin
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Login/Register";
 }
+
+<form method="post" asp-controller="Login" asp-action="Sign" asp-route-returnurl="@Model.ReturnUrl">
     <p class="tip"></p>
     <div class="cont">
         <div class="form sign-in">
             <h2>Welcome back,</h2>
-            <label>
+            <label asp-for="Username">
                 <span>Login</span>
-                <input type="text" />
+                <input asp-for="Username" />
             </label>
-            <label>
+            <label asp-for="Pass">
                 <span>Password</span>
-                <input type="password" />
+                <input asp-for="Pass" />
             </label>
             <p class="forgot-pass">Forgot password?</p>
             <p class="signup_container">
-                <button type="button" class="submit_login">Sign In As Doctor</button>
-                <button type="button" class="submit_login">Sign In As Patient</button>
+                <button type="submit" class="submit_login" name="lDoctor" value="LoginDoctor">Sign In As Doctor</button>
+                <button type="submit" class="submit_login" name="lPatient" value="LoginPatient">Sign In As Patient</button>
             </p>
         </div>
         <div class="sub-cont">
@@ -49,8 +51,12 @@
                     <span>Password</span>
                     <input type="password" />
                 </label>
-                <button type="button" class="submit">Sign Up</button>
+                <p class="signup_container">
+                    <button type="submit" class="submit_login" name="rDoctor" value="RegisterDoctor">Sign Up As Doctor</button>
+                    <button type="submit" class="submit_login" name="rPatient" value="RegisterPatient">Sign Up As Patient</button>
+                </p>
             </div>
         </div>
     </div>
     <script src="~/js/index.js"></script>
+    </form>

@@ -17,7 +17,7 @@ namespace eClinic
         private static async Task<Doctor> GetDoctor()
         {
             Doctor student = null;
-            using (var context = new DoctorDbEntities())
+            using (var context = Ioc.ApplicationDbContext)
             {
                 Console.WriteLine("Start GetStudent...");
                 student = await (context.Doctor.Where(s => s.DoctorPesel == 80128462129)
@@ -41,11 +41,14 @@ namespace eClinic
         public static void Main(string[] args)
         {
             //AsyncQueryAndSave();
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+        public static IWebHost CreateWebHostBuilder(string[] args)
+        {
+            return WebHost.CreateDefaultBuilder()
+                .UseStartup<Startup>()
+                .Build();
+        }
     }
 }
