@@ -181,14 +181,14 @@ button:focus {
     background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
 }
 
-.gradient-color, .contact_info .info_item i, .recent_update_inner .nav.nav-tabs li a span.lnr {
-    background: -webkit-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
-    background: -moz-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
-    background: -o-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
-    background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    .gradient-color, .contact_info .info_item i, .recent_update_inner .nav.nav-tabs li a span.lnr {
+        background: -webkit-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+        background: -moz-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+        background: -o-linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+        background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
 /* End Gradient Area css
 ============================================================================================ */
@@ -206,11 +206,11 @@ button:focus {
     text-transform: uppercase;
     border: double 2px transparent;
     border-radius: 5px;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+    background-image: radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -220,11 +220,11 @@ button:focus {
     }
 
     .primary_btn:hover {
-        background-image: linear-gradient(to right, #8252fa 0%, #eca2f1 100%), radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -webkit-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -moz-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -ms-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -o-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+        background-image: linear-gradient(to right, #15d4d4 0%, #afeeee 100%), radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -webkit-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -moz-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -ms-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -o-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
         color: #fff;
         box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
         border: 2px solid transparent;
@@ -571,22 +571,22 @@ button:focus {
 
 .header_area .navbar-right .primary_btn {
     min-width: 145px;
-    background-image: linear-gradient(to right, #8252fa 0%, #eca2f1 100%), radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -webkit-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -moz-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -ms-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -o-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+    background-image: linear-gradient(to right, #15d4d4 0%, #afeeee 100%), radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -webkit-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -moz-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -ms-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -o-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
     color: #fff;
 }
 
     .header_area .navbar-right .primary_btn:hover {
         background: transparent;
         color: #222222;
-        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
         background-origin: border-box;
         background-clip: content-box, border-box;
     }
@@ -1097,13 +1097,13 @@ button:focus {
             color: #8252fa;
         }
 
-.blog_post img {
-    max-width: 100%;
-}
+    .blog_post img {
+        max-width: 100%;
+    }
 
-.blog_post .primary_btn {
-    line-height: 38px;
-}
+    .blog_post .primary_btn {
+        line-height: 38px;
+    }
 
 .blog_details {
     padding-top: 20px;
@@ -1439,16 +1439,16 @@ button:focus {
         font-weight: 600;
     }
 
-.blog-pagination .page-item:last-child .page-link,
-.blog-pagination .page-item:first-child .page-link {
-    border-radius: 0;
-}
+    .blog-pagination .page-item:last-child .page-link,
+    .blog-pagination .page-item:first-child .page-link {
+        border-radius: 0;
+    }
 
-.blog-pagination .page-link:hover {
-    color: #fff;
-    text-decoration: none;
-    border-color: #eee;
-}
+    .blog-pagination .page-link:hover {
+        color: #fff;
+        text-decoration: none;
+        border-color: #eee;
+    }
 
 /*============ Start Blog Single Styles  =============*/
 .single-post-area .social-links {
@@ -1500,9 +1500,9 @@ button:focus {
         font-weight: 600;
     }
 
-.single-post-area .thumb .overlay-bg {
-    background: rgba(0, 0, 0, 0.8);
-}
+    .single-post-area .thumb .overlay-bg {
+        background: rgba(0, 0, 0, 0.8);
+    }
 
 .single-post-area .navigation-area {
     border-top: 1px solid #eee;
@@ -2027,11 +2027,11 @@ button:focus {
     margin-top: 20px;
     cursor: pointer;
     border: none;
-    background-image: linear-gradient(to right, #8252fa 0%, #eca2f1 100%), radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -webkit-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -moz-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -ms-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-    background-image: -o-linear-gradient(to right, #8252fa 0%, #eca2f1 100%), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+    background-image: linear-gradient(to right, #15d4d4 0%, #afeeee 100%), radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -webkit-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -moz-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -ms-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -o-linear-gradient(to right, #15d4d4 0%, #afeeee 100%), -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
     color: #fff;
     box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
     border: 2px solid transparent;
@@ -2045,11 +2045,11 @@ button:focus {
     .contact_form .primary_btn:hover {
         border: double 2px transparent;
         border-radius: 5px;
-        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #8252fa, #eca2f1);
-        background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #8252fa, #eca2f1);
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+        background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
         background-origin: border-box;
         background-clip: content-box, border-box;
         color: #222222;
@@ -3637,55 +3637,55 @@ h6 {
     justify-content: center;
 }
 
-    .recent_update_inner .nav.nav-tabs li {
-        flex: 0 0 25%;
-        max-width: 195px;
-        padding: 0px 15px;
+.recent_update_inner .nav.nav-tabs li {
+    flex: 0 0 25%;
+    max-width: 195px;
+    padding: 0px 15px;
+}
+
+    .recent_update_inner .nav.nav-tabs li a {
+        border: none;
+        padding: 25px 0px;
+        background: #fff;
+        text-align: center;
+        line-height: 60px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #000000;
     }
 
-        .recent_update_inner .nav.nav-tabs li a {
-            border: none;
-            padding: 25px 0px;
-            background: #fff;
-            text-align: center;
-            line-height: 60px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            font-size: 12px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            text-transform: uppercase;
-            color: #000000;
-        } 
-
-            .recent_update_inner .nav.nav-tabs li a span.lnr {
-                font-size: 30px;
-                font-weight: 600;
-                -webkit-transition: all 0.4s ease 0s;
-                -moz-transition: all 0.4s ease 0s;
-                -o-transition: all 0.4s ease 0s;
-                transition: all 0.4s ease 0s;
-            }
-
-            .recent_update_inner .nav.nav-tabs li a.active, .recent_update_inner .nav.nav-tabs li a:hover {
-                box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-                color: #fff;
-            }
-
-                .recent_update_inner .nav.nav-tabs li a.active span.lnr, .recent_update_inner .nav.nav-tabs li a:hover span.lnr {
-                    background: -webkit-linear-gradient(90deg, #fff, #fff);
-                    background: -moz-linear-gradient(90deg, #fff, #fff);
-                    background: -o-linear-gradient(90deg, #fff, #fff);
-                    background: linear-gradient(90deg, #fff, #fff);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                }
-
-        .recent_update_inner .nav.nav-tabs li h6 {
-            letter-spacing: 1px;
-            margin-top: -10px;
-            margin-bottom: 0;
+        .recent_update_inner .nav.nav-tabs li a span.lnr {
+            font-size: 30px;
+            font-weight: 600;
+            -webkit-transition: all 0.4s ease 0s;
+            -moz-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
         }
+
+        .recent_update_inner .nav.nav-tabs li a.active, .recent_update_inner .nav.nav-tabs li a:hover {
+            box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+            color: #fff;
+        }
+
+            .recent_update_inner .nav.nav-tabs li a.active span.lnr, .recent_update_inner .nav.nav-tabs li a:hover span.lnr {
+                background: -webkit-linear-gradient(90deg, #fff, #fff);
+                background: -moz-linear-gradient(90deg, #fff, #fff);
+                background: -o-linear-gradient(90deg, #fff, #fff);
+                background: linear-gradient(90deg, #fff, #fff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+    .recent_update_inner .nav.nav-tabs li h6 {
+        letter-spacing: 1px;
+        margin-top: -10px;
+        margin-bottom: 0;
+    }
 
 .recent_update_inner .tab-content .tab-pane {
     border: none;
@@ -4887,286 +4887,344 @@ h6 {
     }
 
 *, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  background: #ededed;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ededed;
 }
 
 input, button {
-  border: none;
-  outline: none;
-  background: none;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .tip {
-  font-size: 20px;
-  margin: 40px auto 50px;
-  text-align: center;
+    font-size: 20px;
+    margin: 40px auto 50px;
+    text-align: center;
 }
 
 .cont {
-  overflow: hidden;
-  position: relative;
-  width: 900px;
-  height: 550px;
-  margin: 0 auto 100px;
-  background: #fff;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    margin: 0 auto 100px;
+    background: #fff;
 }
 
 .form {
-  position: relative;
-  width: 640px;
-  height: 100%;
-  transition: -webkit-transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
-  padding: 50px 30px 0;
+    position: relative;
+    width: 640px;
+    height: 100%;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+    padding: 50px 30px 0;
 }
 
 .sub-cont {
-  overflow: hidden;
-  position: absolute;
-  left: 640px;
-  top: 0;
-  width: 900px;
-  height: 100%;
-  padding-left: 260px;
-  background: #fff;
-  transition: -webkit-transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+    overflow: hidden;
+    position: absolute;
+    left: 640px;
+    top: 0;
+    width: 900px;
+    height: 100%;
+    padding-left: 260px;
+    background: #fff;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
+
 .cont.s--signup .sub-cont {
-  -webkit-transform: translate3d(-640px, 0, 0);
-          transform: translate3d(-640px, 0, 0);
+    -webkit-transform: translate3d(-640px, 0, 0);
+    transform: translate3d(-640px, 0, 0);
 }
 
 button {
-  display: block;
-  margin: 0 auto;
-  width: 260px;
-  height: 36px;
-  border-radius: 30px;
-  color: #fff;
-  font-size: 15px;
-  cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .img {
-  overflow: hidden;
-  z-index: 2;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 260px;
-  height: 100%;
-  padding-top: 360px;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    padding-top: 360px;
 }
-.img:before {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 900px;
-  height: 100%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg");
-  background-size: cover;
-  transition: -webkit-transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
-}
-.img:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
+
+    .img:before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 900px;
+        height: 100%;
+        background-image: url("https://www.doctormortgagealliance.com/wp-client_data/20370/558/uploads/2017/01/shutterstock_155141132-1.jpg");
+        /*background-image: url(~/img/doctors.jpg);*/;
+        background-size: cover;
+        transition: -webkit-transform 1.2s ease-in-out;
+        transition: transform 1.2s ease-in-out;
+        transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+    }
+
+    .img:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
 .cont.s--signup .img:before {
-  -webkit-transform: translate3d(640px, 0, 0);
-          transform: translate3d(640px, 0, 0);
+    -webkit-transform: translate3d(640px, 0, 0);
+    transform: translate3d(640px, 0, 0);
 }
+
 .img__text {
-  z-index: 2;
-  position: absolute;
-  left: 0;
-  top: 50px;
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-  color: #fff;
-  transition: -webkit-transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out;
-  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
-.img__text h2 {
-  margin-bottom: 10px;
-  font-weight: normal;
-}
-.img__text p {
-  font-size: 14px;
-  line-height: 1.5;
-}
+
+    .img__text h2 {
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    .img__text p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
 .cont.s--signup .img__text.m--up {
-  -webkit-transform: translateX(520px);
-          transform: translateX(520px);
+    -webkit-transform: translateX(520px);
+    transform: translateX(520px);
 }
+
 .img__text.m--in {
-  -webkit-transform: translateX(-520px);
-          transform: translateX(-520px);
+    -webkit-transform: translateX(-520px);
+    transform: translateX(-520px);
 }
+
 .cont.s--signup .img__text.m--in {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
 }
+
 .img__btn {
-  overflow: hidden;
-  z-index: 2;
-  position: relative;
-  width: 100px;
-  height: 36px;
-  margin: 0 auto;
-  background: transparent;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 15px;
-  cursor: pointer;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    width: 100px;
+    height: 36px;
+    margin: 0 auto;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
 }
-.img__btn:after {
-  content: '';
-  z-index: 2;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border: 2px solid #fff;
-  border-radius: 30px;
-}
-.img__btn span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  transition: -webkit-transform 1.2s;
-  transition: transform 1.2s;
-  transition: transform 1.2s, -webkit-transform 1.2s;
-}
-.img__btn span.m--in {
-  -webkit-transform: translateY(-72px);
-          transform: translateY(-72px);
-}
+
+    .img__btn:after {
+        content: '';
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #fff;
+        border-radius: 30px;
+    }
+
+    .img__btn span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        transition: -webkit-transform 1.2s;
+        transition: transform 1.2s;
+        transition: transform 1.2s, -webkit-transform 1.2s;
+    }
+
+        .img__btn span.m--in {
+            -webkit-transform: translateY(-72px);
+            transform: translateY(-72px);
+        }
+
 .cont.s--signup .img__btn span.m--in {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
+
 .cont.s--signup .img__btn span.m--up {
-  -webkit-transform: translateY(72px);
-          transform: translateY(72px);
+    -webkit-transform: translateY(72px);
+    transform: translateY(72px);
 }
 
 h2 {
-  width: 100%;
-  font-size: 26px;
-  text-align: center;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
 }
 
 label {
-  display: block;
-  width: 260px;
-  margin: 25px auto 0;
-  text-align: center;
-}
-label span {
-  font-size: 12px;
-  color: #cfcfcf;
-  text-transform: uppercase;
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
 }
 
+    label span {
+        font-size: 12px;
+        color: #cfcfcf;
+        text-transform: uppercase;
+    }
+
 input {
-  display: block;
-  width: 100%;
-  margin-top: 5px;
-  padding-bottom: 5px;
-  font-size: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 
 .forgot-pass {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 12px;
-  color: #cfcfcf;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #cfcfcf;
 }
 
 .submit {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: #d4af7a;
-  text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #22195e;
+    text-transform: uppercase;
 }
 
 .submit_login {
-    background: #d4af7a;
+    background: #22195e;
     text-transform: uppercase;
     margin: 20px;
-    width: 220px;
+    width: 240px;
+    display: inline-block;
+    background-image: radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-origin: border-box;
 }
+
+    .submit_login:hover {
+        opacity: 0.8;
+        box-shadow: 0px 10px 30px rgba(13, 82, 250, 0.2);
+        border: 0.5px solid #81c7c7;
+    }
+
+.submit_register {
+    background: #22195e;
+    text-transform: uppercase;
+    margin: 20px;
+    width: 240px;
+    display: inline-block;
+    background-image: radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -webkit-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -moz-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -ms-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-image: -o-radial-gradient(circle at top left, #15d4d4, #afeeee);
+    background-origin: border-box;
+}
+
+    .submit_register:hover {
+        opacity: 0.8;
+        box-shadow: 0px 10px 30px rgba(13, 82, 250, 0.2);
+        border: 0.5px solid #81c7c7;
+    }
+
+
 
 .fb-btn {
-  border: 2px solid #d3dae9;
-  color: #8fa1c7;
-}
-.fb-btn span {
-  font-weight: bold;
-  color: #455a81;
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
 }
 
+    .fb-btn span {
+        font-weight: bold;
+        color: #455a81;
+    }
+
 .sign-in {
-  transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
+
 .cont.s--signup .sign-in {
-  transition-timing-function: ease-in-out;
-  transition-duration: 1.2s;
-  -webkit-transform: translate3d(640px, 0, 0);
-          transform: translate3d(640px, 0, 0);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.2s;
+    -webkit-transform: translate3d(640px, 0, 0);
+    transform: translate3d(640px, 0, 0);
 }
 
 .sign-up {
-  -webkit-transform: translate3d(-900px, 0, 0);
-          transform: translate3d(-900px, 0, 0);
+    -webkit-transform: translate3d(-900px, 0, 0);
+    transform: translate3d(-900px, 0, 0);
 }
+
 .cont.s--signup .sign-up {
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .icon-link {
-  position: absolute;
-  left: 5px;
-  bottom: 5px;
-  width: 32px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 32px;
 }
-.icon-link img {
-  width: 100%;
-  vertical-align: top;
-}
+
+    .icon-link img {
+        width: 100%;
+        vertical-align: top;
+    }
+
 .icon-link--twitter {
-  left: auto;
-  right: 5px;
+    left: auto;
+    right: 5px;
 }
 
 /* End Footer Area css
@@ -5174,3 +5232,19 @@ input {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.home-img-container {
+    width: 80%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-img-picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+

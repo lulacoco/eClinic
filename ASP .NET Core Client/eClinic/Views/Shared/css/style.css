@@ -595,6 +595,11 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
+.submit_login
+{
+    background-color:red
+}
+
 .home_banner_area {
     z-index: 1;
     background: url(../img/banner/home-banner.png) no-repeat right center;
@@ -764,7 +769,8 @@ button:focus {
                 .banner_area .banner_inner .banner_content .page_link a:last-child:before {
                     display: none;
                 }
-
+   
+             
 /* End Home Banner Area css
 ============================================================================================ */
 /* Start Common Banner Area css
