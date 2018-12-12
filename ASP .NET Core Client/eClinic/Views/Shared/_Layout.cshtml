@@ -43,9 +43,18 @@
                             <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                             <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a class="primary_btn text-uppercase" asp-area="" asp-controller="Login" asp-action="Index">sign up / sign in</a></li>
-                        </ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav-item"><a class="primary_btn text-uppercase" asp-area="" asp-controller="Login" asp-action="Index">Logout</a></li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav-item"><a class="primary_btn text-uppercase" asp-area="" asp-controller="Login" asp-action="Index">sign up / sign in</a></li>
+                            </ul>
+                        }
                     </div>
                 </div>
             </nav>
