@@ -12,7 +12,7 @@ CREATE TABLE Diseases (
 );
 
 CREATE TABLE Doctor (
-	DoctorPesel bigint PRIMARY KEY,
+	DoctorPesel varchar(11) PRIMARY KEY,
 	FirstName varchar(50) NOT NULL,
 	LastName varchar(50) NOT NULL,
 	Age int
@@ -23,11 +23,11 @@ CREATE TABLE DoctorLogin (
 	Username varchar(100) NOT NULL,
 	Pass char(64) NOT NULL,
 	Email varchar(320) NOT NULL,
-	DoctorPesel bigint FOREIGN KEY REFERENCES Doctor(DoctorPesel)
+	DoctorPesel varchar(11) FOREIGN KEY REFERENCES Doctor(DoctorPesel)
 );
 
 CREATE TABLE Patient (
-	PatientPesel bigint PRIMARY KEY,
+	PatientPesel varchar(11) PRIMARY KEY,
 	FirstName varchar(50) NOT NULL,
 	LastName varchar(50) NOT NULL,
 	Age int
@@ -38,13 +38,13 @@ CREATE TABLE PatientLogin (
 	Username varchar(100) NOT NULL,
 	Pass char(64) NOT NULL,
 	Email varchar(320) NOT NULL,
-	PatientPesel bigint FOREIGN KEY REFERENCES Patient(PatientPesel)
+	PatientPesel varchar(11) FOREIGN KEY REFERENCES Patient(PatientPesel)
 );	 
 
 CREATE TABLE Appointment (
 	AppointmentID int IDENTITY(1,1) PRIMARY KEY,
-	DoctorPesel bigint FOREIGN KEY REFERENCES Doctor(DoctorPesel),
-	PatientPesel bigint FOREIGN KEY REFERENCES Patient(PatientPesel),
+	DoctorPesel varchar(11) FOREIGN KEY REFERENCES Doctor(DoctorPesel),
+	PatientPesel varchar(11) FOREIGN KEY REFERENCES Patient(PatientPesel),
 	DiseaseID int FOREIGN KEY REFERENCES Diseases(DiseaseID),
 	AppointmentDate DATETIME NOT NULL,
 	AppointmentCompleted BIT DEFAULT 0

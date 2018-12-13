@@ -14,17 +14,21 @@ namespace eClinic.Models
         {
         }
 
+        public ApplicationDbContext() { }
+
         public DbSet<Doctor> Doctor { get; set; }
-        public DbSet<DoctorLogin> DoctorLogins { get; set; }
-        //public virtual DbSet<Post> Post { get; set; }
-        
+        public DbSet<DoctorLogin> DoctorLogin { get; set; }
+        public DbSet<PatientLogin> PatientLogin { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+                                           //public virtual DbSet<Post> Post { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.Entity<Doctor>(entity =>
-            //{
-            //    entity.Property(e => e.DoctorPesel).IsRequired();
-            //});
+            modelBuilder.Entity<Doctor>()
+                .Property(a => a.RowVersion)
+                .IsConcurrencyToken()
+                .ValueGeneratedOnAddOrUpdate();
 
             //modelBuilder.Entity<Doctor>(entity =>
             //{

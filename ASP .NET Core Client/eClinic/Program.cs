@@ -20,10 +20,10 @@ namespace eClinic
             using (var context = Ioc.ApplicationDbContext)
             {
                 Console.WriteLine("Start GetStudent...");
-                student = await (context.Doctor.Where(s => s.DoctorPesel == 80128462129)
+                student = await (context.Doctor.Where(s => s.DoctorPesel == "80128462129")
                     .FirstOrDefaultAsync<Doctor>());
                 Console.WriteLine("Koniec GetStudent...");
-                Console.WriteLine(student.DoctorPesel.ToString() + " " + student.FirstName
+                Console.WriteLine(student.DoctorPesel + " " + student.FirstName
                     + " " + student.LastName);
             }
             return student; //tutaj student jest obiektem (krotką) zwracanym przez zadanie
