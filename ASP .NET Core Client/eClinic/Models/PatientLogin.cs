@@ -11,13 +11,11 @@ namespace eClinic.Models
     {
         [Key]
         public int LoginId { get; set; }
-
         [BindProperty]
         public string Username { get; set; }
         public string Email { get; set; }
         [BindProperty]
         public string Pass { get; set; }
-        public Int64 PatientPesel { get; set; }
-        public string ReturnUrl { get; set; }
+        public string PatientPesel { get; set; }
     }
 }
