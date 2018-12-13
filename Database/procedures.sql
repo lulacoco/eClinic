@@ -2,7 +2,7 @@ USE Clinic
 GO
 
 CREATE PROCEDURE GetDoctorAppointments
-@DoctorPesel bigint
+@DoctorPesel varchar(11)
 AS
 SELECT PatientPesel, AppointmentDate
 FROM Appointment
@@ -11,7 +11,7 @@ WHERE DoctorPesel = @DoctorPesel AND AppointmentCompleted=0
 GO
 
 CREATE PROCEDURE GetPatientAppointments
-@PatientPesel bigint
+@PatientPesel varchar(11)
 AS
 SELECT DoctorPesel, AppointmentDate
 FROM Appointment
