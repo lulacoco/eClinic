@@ -14,6 +14,8 @@ namespace eClinic.Models
         {
         }
 
+        public ApplicationDbContext() { }
+
         public DbSet<Doctor> Doctor { get; set; }
         public DbSet<DoctorLogin> DoctorLogins { get; set; }
         //public virtual DbSet<Post> Post { get; set; }
@@ -21,10 +23,10 @@ namespace eClinic.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.Entity<Doctor>(entity =>
-            //{
-            //    entity.Property(e => e.DoctorPesel).IsRequired();
-            //});
+            modelBuilder.Entity<Doctor>()
+                .Property(a => a.RowVersion)
+                .IsConcurrencyToken()
+                .ValueGeneratedOnAddOrUpdate();
 
             //modelBuilder.Entity<Doctor>(entity =>
             //{

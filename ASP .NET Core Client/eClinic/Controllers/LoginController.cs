@@ -49,7 +49,7 @@ namespace eClinic.Controllers
             {
                 //Register for Patients or Doctors
                 if(!string.IsNullOrEmpty(rPatient) || !string.IsNullOrEmpty(rDoctor))
-                {
+                {   
                     var result = await mUserManager.CreateAsync(new ApplicationUser
                     {
                         UserName = doctorLogin.Username,

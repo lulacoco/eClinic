@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eClinic", "eClinic\eClinic.csproj", "{ACD56B72-9E46-48E7-A30D-13BB5EA4C2F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eClinic.Tests", "eClinic.Tests\eClinic.Tests.csproj", "{907F67F3-A749-407B-BABB-A54442EA5121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ACD56B72-9E46-48E7-A30D-13BB5EA4C2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD56B72-9E46-48E7-A30D-13BB5EA4C2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD56B72-9E46-48E7-A30D-13BB5EA4C2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907F67F3-A749-407B-BABB-A54442EA5121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907F67F3-A749-407B-BABB-A54442EA5121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907F67F3-A749-407B-BABB-A54442EA5121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907F67F3-A749-407B-BABB-A54442EA5121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
