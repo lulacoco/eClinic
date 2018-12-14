@@ -12232,11 +12232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/agatablachowiak/eClinic/ASP .NET Core Client/eClinic/eClinic.csproj",
+      "projectUniqueName": "/Users/agatablachowiak/13-12-eClinic/eClinic/ASP .NET Core Client/eClinic/eClinic.csproj",
       "projectName": "eClinic",
-      "projectPath": "/Users/agatablachowiak/eClinic/ASP .NET Core Client/eClinic/eClinic.csproj",
+      "projectPath": "/Users/agatablachowiak/13-12-eClinic/eClinic/ASP .NET Core Client/eClinic/eClinic.csproj",
       "packagesPath": "/Users/agatablachowiak/.nuget/packages/",
-      "outputPath": "/Users/agatablachowiak/eClinic/ASP .NET Core Client/eClinic/obj",
+      "outputPath": "/Users/agatablachowiak/13-12-eClinic/eClinic/ASP .NET Core Client/eClinic/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
