@@ -37,6 +37,8 @@ GO
 CREATE TABLE [dbo].[AspNetRoles](
     [Id] [nvarchar](128) NOT NULL,
     [Name] [nvarchar](256) NOT NULL,
+	[ConcurrencyStamp] [nvarchar](256) NOT NULL,
+	[NormalizedName] [nvarchar](256) NOT NULL,
  CONSTRAINT [PK_dbo.AspNetRoles] PRIMARY KEY CLUSTERED 
 (
     [Id] ASC
@@ -45,6 +47,15 @@ CREATE TABLE [dbo].[AspNetRoles](
 
 GO
 
+
+CREATE TABLE [dbo].[AspNetRoleClaims] (
+	[Id] nvarchar(128) PRIMARY KEY,
+	[ClaimType] nvarchar(256) not null,
+	[ClaimValue] nvarchar(256) not null,
+	[RoleId] nvarchar(128) FOREIGN KEY REFERENCES AspNetRoles(Id) 
+);
+
+GO
 
 
 /****** Object:  Table [dbo].[AspNetUsers]    Script Date: 5/15/2014 4:06:02 PM ******/

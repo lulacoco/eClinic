@@ -7,13 +7,13 @@
     <div class="cont">
         <div class="form sign-in">
             <h2>Welcome back,</h2>
-            <label asp-for="Username">
+            <label asp-for="LoginUsername">
                 <span>Login</span>
-                <input asp-for="Username" />
+                <input asp-for="LoginUsername" />
             </label>
-            <label asp-for="Pass">
+            <label asp-for="LoginPass">
                 <span>Password</span>
-                <input asp-for="Pass" />
+                <input asp-for="LoginPass" />
             </label>
             <p class="forgot-pass">Forgot password?</p>
             <p class="signup_container">
@@ -38,17 +38,17 @@
             </div>
             <div class="form sign-up">
                 <h2> Be aware of your health</h2>
-                <label>
+                <label asp-for="RegisterUsername">
                     <span>Name</span>
-                    <input type="text" />
+                    <input asp-for="RegisterUsername" />
                 </label>
-                <label>
+                <label asp-for="RegisterEmail">
                     <span>Email</span>
-                    <input type="email" />
+                    <input asp-for="RegisterEmail" />
                 </label>
-                <label>
+                <label asp-for="RegisterPass">
                     <span>Password</span>
-                    <input type="password" />
+                    <input asp-for="RegisterPass" />
                 </label>
                 <p class="signup_container">
                     <button type="submit" class="submit_register" name="rDoctor" value="RegisterDoctor">Sign Up As Doctor</button>
@@ -57,5 +57,5 @@
             </div>
         </div>
     </div>
-    <script src="~/js/index.js"> </script>
- </form>
+    <script src="~/js/index.js"></script>
+</form>
