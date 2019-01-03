@@ -93,23 +93,46 @@ namespace eClinic.Controllers
                 //Login for Patients or Doctors
                 else if(!string.IsNullOrEmpty(lPatient) || !string.IsNullOrEmpty(lDoctor))
                 {
-                    var x = await mSignInManager.PasswordSignInAsync(doctorLogin.LoginUsername, doctorLogin.LoginPass, true, false);
-                    await CheckRole(lPatient, lDoctor);        
+                    await mSignInManager.PasswordSignInAsync(doctorLogin.LoginUsername, doctorLogin.LoginPass, true, false);
+                    
+                    if (!string.IsNullOrEmpty(lPatient)) 
+                        return RedirectToAction("IsPatientCheck", "Login");
+                    else if (!string.IsNullOrEmpty(lDoctor))
+                        return RedirectToAction("IsDoctorCheck", "Login");
+                    else return Content($"Something went wrong! Before InRole Check", "text/html");
                 }
             }
             return View(doctorLogin);
         }
 
-        public async Task<IActionResult> CheckRole (string lPatient, string lDoctor)
+        public async Task<IActionResult> IsPatientCheck()
         {
-            if (!string.IsNullOrEmpty(lPatient) && User.IsInRole("patient"))
+            if (User.IsInRole("patient"))
                 return RedirectToAction("Index", "Patient");
-            else if (!string.IsNullOrEmpty(lDoctor) && User.IsInRole("doctor"))
-                return RedirectToAction("Index", "Doctor");
-            else return Content($"Something went wrong!", "text/html");
-            
+            else if (User.IsInRole("doctor"))
+            {
+                await mSignInManager.SignOutAsync();
+                return Content($"You are a doctor so login as doctor!", "text/html");
+            }
+
+            await mSignInManager.SignOutAsync();
+            return Content($"Something went wrong! After InRole Check", "text/html");
         }
-        
+
+        public async Task<IActionResult> IsDoctorCheck()
+        {
+            if (User.IsInRole("patient"))
+            {
+                await mSignInManager.SignOutAsync();
+                return Content($"You are a patient so login as patient!", "text/html");
+            }
+            else if (User.IsInRole("doctor"))
+                return RedirectToAction("Index", "Doctor");
+
+            await mSignInManager.SignOutAsync();
+            return Content($"Something went wrong! After InRole Check", "text/html");
+        }
+
         [Authorize]
         [Route("/haker")]
         public IActionResult PrivateArea()
