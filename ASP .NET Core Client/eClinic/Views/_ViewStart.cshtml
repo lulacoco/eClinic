@@ -1,3 +1,14 @@
 ﻿@{
-    Layout = "_Layout";
+    if (User.IsInRole("patient"))
+    {
+        Layout = "_PatientLayout";
+    }
+    else if (User.IsInRole("doctor"))
+    {
+        Layout = "_DoctorLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
 }
