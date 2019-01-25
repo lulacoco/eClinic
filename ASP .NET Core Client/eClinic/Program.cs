@@ -17,7 +17,7 @@ namespace eClinic
         private static async Task<Doctor> GetDoctor()
         {
             Doctor student = null;
-            using (var context = Ioc.ApplicationDbContext)
+            using (var context = new ApplicationDbContext())
             {
                 Console.WriteLine("Start GetStudent...");
                 student = await (context.Doctor.Where(s => s.DoctorPesel == "80128462129")
