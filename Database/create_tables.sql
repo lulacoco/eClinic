@@ -4,6 +4,11 @@ GO
 USE Clinic
 GO
 
+CREATE TABLE Specialization (
+	SpecializationID int IDENTITY(1,1) PRIMARY KEY,
+	SpecializationName varchar(100) NOT NULL
+);
+
 CREATE TABLE Diseases (
 	DiseaseID int IDENTITY(1,1) PRIMARY KEY,
 	DiseaseName varchar(100),
@@ -15,7 +20,8 @@ CREATE TABLE Doctor (
 	DoctorPesel varchar(11) PRIMARY KEY,
 	FirstName varchar(50) NOT NULL,
 	LastName varchar(50) NOT NULL,
-	Age int
+	Age int,
+	SpecializationID FOREIGN KEY REFERENCES Specialization(SpecializationID)
 );
 
 CREATE TABLE DoctorLogin (
