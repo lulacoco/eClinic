@@ -1,11 +1,18 @@
 USE Clinic
 GO
 
-INSERT INTO Doctor (DoctorPesel, FirstName, LastName, Age)
-VALUES ('82025373453', 'Andrew', 'Morrison', 36),
-	('80128462129', 'Mikolaj', 'Andjejko', 38),
-	('91044423712', 'Anthony', 'Mousako', 27),
-	('86748291245', 'Jen', 'Cannon', 32);
+INSERT INTO Specialization (SpecializationName)
+VALUES ('Family'),
+	('Pediatrician'),
+	('Gynecologist'),
+	('Surgeon'),
+	('Psychiatrist');
+
+INSERT INTO Doctor (DoctorPesel, FirstName, LastName, Age, SpecializationID)
+VALUES ('82025373453', 'Andrew', 'Morrison', 36, 1),
+	('80128462129', 'Mikolaj', 'Andjejko', 38, 2),
+	('91044423712', 'Anthony', 'Mousako', 27, 2),
+	('86748291245', 'Jen', 'Cannon', 32, 5);
 
 INSERT INTO DoctorLogin(Username, Pass, Email, DoctorPesel)
 VALUES('andrmorr', 'andrespassword', 'andrewmorrison@gmail.com', '82025373453'),
